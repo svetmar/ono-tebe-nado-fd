@@ -8,7 +8,6 @@
     padding: 88px 50px 100px 50px;
     box-sizing: border-box;
     font-weight: 400;
-    font-style: Regular;
     font-size: 18px;
     line-height: 24.3px;
 }
@@ -58,6 +57,7 @@
     background-image: url('../images/cover.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 .overlay {
@@ -75,7 +75,7 @@
     font-size: 100px;
     line-height: 134%;    
     text-transform: uppercase;
-    margin-bottom: 106px;
+    margin-bottom: 95px;
 }
 
 .aligned-text {
@@ -102,10 +102,6 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    height: 34px;
-    margin-bottom: 50px;
-    font-family: Raleway;
     font-weight: 400;
     font-size: 22px;
     line-height: 28px;
@@ -116,6 +112,7 @@
 .cover__description-text {
     z-index: 50;
     position: relative;
+    padding-top: 12px;
     word-spacing: 18px;
 }
 
